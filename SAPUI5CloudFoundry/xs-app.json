@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/SAPUI5CloudFoundry/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/SAPUI5CloudFoundry/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}
